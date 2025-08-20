@@ -27,8 +27,24 @@ else if( board[r][c]== "X" && r=2 && c=1)
 r8=true;
 else if( board[r][c]== "X" && r=2 && c=2)
 r9=true;
-else{
-false;
+        if( board[r][c]== "O" && r=0 && c=0)
+r1=true;
+ else if( board[r][c]== "O" && r=0 && c=1)
+r2=true;
+else if( board[r][c]== "O" && r=0 && c=2)
+r3= true;
+else if( board[r][c]== "O" && r=1 && c=0)
+r4= true;
+else if( board[r][c]== "O" && r=1 && c=1)
+r5= true;
+else if( board[r][c]== "O" && r=1 && c=2)
+r6=true
+else if( board[r][c]== "O" && r=2 && c=0)
+r7=true;
+else if( board[r][c]== "O" && r=2 && c=1)
+r8=true;
+else if( board[r][c]== "O" && r=2 && c=2)
+r9=true;
 
     }
   }
